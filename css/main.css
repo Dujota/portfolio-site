@@ -7,13 +7,11 @@ body, html{
   margin: 0;
 }
 
-
 .video-wrap{
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh
-
+  height: 100vh;
 }
 
 video{
@@ -45,4 +43,6 @@ video{
   position: absolute;
   top:    50%;
   left:   50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
