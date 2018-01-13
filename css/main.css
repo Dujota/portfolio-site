@@ -154,3 +154,12 @@ video{
   background: rgba(	40, 46, 52, 1);
   color: #ddd;
 }
+
+
+/* Footer */
+
+.footer{
+  position: sticky;
+  background-color: black;
+  height: 100px;
+}
