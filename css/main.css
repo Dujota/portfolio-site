@@ -6,6 +6,7 @@ body, html{
   /* height: 100%; */
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
 
@@ -88,17 +89,16 @@ video{
   background-attachment: fixed;
 
   /* fixed = parallax
-
   scroll = normal */
 }
 
 .parallax1{
   background-image: url('../img/design.jpeg');
-  min-height: 400px;
+  min-height: 300px;
 }
 .parallax2{
   background-image: url('../img/whiteboard.jpg');
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .parallax3{
@@ -106,12 +106,49 @@ video{
   min-height: 100vh;
 }
 
+/*  parallax heading*/
+.parallax-text{
+  font-size: 1.8rem;
+  letter-spacing: 8px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax-text .border{
+  background-color: #111;
+  padding: 2px;
+  width: 100%;
+  color: #fff;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+
+
 
 /* Conent Sections */
+.section h1{
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
 
+.section h2 {
+  text-align: center;
+  /* padding:  */
+}
+
+.section{
+  padding: 50px 80px;
+}
 
 .section-light{
   background-color: rgba(	232, 232, 232, 1);
+  color: #666;
 }
 
 .section-dark{
