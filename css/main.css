@@ -3,6 +3,7 @@
 }
 
 body, html{
+  /* height: 100%; */
   padding: 0;
   margin: 0;
 }
@@ -31,7 +32,7 @@ video{
 .overlay{
   z-index: 2;
   position: absolute;
-  background: rgba(0,0,0,0.1);
+  background: rgba(1, 76, 102,0.3);
   top: 0;
   bottom: 0;
   left: 0;
@@ -70,14 +71,50 @@ video{
   font-style: italic;
 }
 
-hr.accent{
+.accent{
   width: 100px;
   border-bottom: 5px #0080ff solid;
   margin: 25px auto;
 }
 
+
+/* Parallax Scroll */
+.parallax1, .parallax2, .parallax3{
+  position: relative;
+  opacity: 0.6;
+
+  /* scroll effect */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* fixed = parallax
+
+  scroll = normal */
+}
+
+.parallax1{
+  background-image: url('../img/design.jpeg');
+  min-height: 400px;
+}
+.parallax2{
+  background-image: url('../img/whiteboard.jpg');
+  min-height: 400px;
+}
+
+.parallax3{
+  background-image: url('../img/code.jpg');
+  min-height: 100vh;
+}
+
+
 /* Conent Sections */
 
+
 .section-light{
-  background:
+  background-color: rgba(	232, 232, 232, 1);
+}
+
+.section-dark{
+  background: rgba(	40, 46, 52, 1);
+  color: #ddd;
 }
