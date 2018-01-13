@@ -155,6 +155,11 @@ video{
   color: #ddd;
 }
 
+.section div.content{
+  border: 1px solid red;
+  display: flex;
+}
+
 
 /* Footer */
 
