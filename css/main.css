@@ -108,8 +108,10 @@ video{
   opacity: 0.6;
 
   /* scroll effect */
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   /* fixed = parallax
   scroll = normal */
