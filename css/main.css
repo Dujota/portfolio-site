@@ -162,7 +162,7 @@ video{
 /* About Section */
 
 #about-me-container{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 0 auto;
   width:100%;
 }
@@ -181,9 +181,8 @@ video{
 /* FlexBox for pic and 2nd text */
 #about-me-container .more-info{
   padding-top: 10px;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   width: 100%;
-  /* max-height: 600px; */
   display: flex;
   flex-wrap: wrap;
   flex-wrap: wrap;
@@ -195,7 +194,7 @@ video{
 #about-me-container .card{
   max-width: 350px;
   border-radius: 40px;
-  border: solid 1px #FFEB3B;
+  border: solid 1px #FFF;
 }
 
 #about-me-container .icon{
@@ -222,7 +221,7 @@ video{
 #about-me-container .more-info .more-text{
   width: 100%;
   height: 100%;
-  border:  1px solid red;
+  /* border:  1px solid red; */
   /* max-height: 500px; */
   /* overflow:  hidden; */
 }
