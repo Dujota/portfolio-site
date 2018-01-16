@@ -197,6 +197,7 @@ video{
 
 #about-me-container .icon{
   text-align: center;
+  padding: 22px;
 }
 
 #about-me-container .icon i{
@@ -207,6 +208,7 @@ video{
 #about-me-container .more-info .profile-pic{
   width: 100%;
   opacity: 0.7;
+  padding: 20px;
 }
 
 #about-me-container .more-info .profile-pic:hover{
@@ -216,11 +218,16 @@ video{
 /* text to the right of picture hidden at mobile view */
 #about-me-container .more-info .more-text{
   width: 50%;
+  height: 100%;
   border:  1px solid red;
-  max-height: 248px;
+  max-height: 500px;
   overflow:  hidden;
 }
 
+#about-me-container .more-info .more-text p{
+  padding-top: 20px;
+  padding-left: 40px;
+}
 
 /* Conent Sections */
 .section h1{
