@@ -9,6 +9,13 @@ body, html{
   cursor: default;
 }
 
+/* clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* Navbar Styling */
 #navbar{
   background: rgba(51,51,51,1);
@@ -152,12 +159,74 @@ video{
   border-radius: 10px;
 }
 
+/* About Section */
+
+#about-me-container{
+  border: 2px solid blue;
+  margin: 0 auto;
+  width:100%;
+}
+
+/* help with positioning */
+#about-me-container div{
+  /* border: 1px solid #FFEB3B; */
+}
+
+/* Who am i? */
+#about-me-container .about{
+  max-width:65%;
+  margin: 0 auto;
+}
+
+/* FlexBox for pic and 2nd text */
+#about-me-container .more-info{
+  padding-top: 10px;
+  border: solid 1px white;
+  width: 100%;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  justify-content: center;
+}
+
+/* Picture Card */
+#about-me-container .card{
+  max-width: 350px;
+  border-radius: 40px;
+  border: solid 1px #FFEB3B;
+}
+
+#about-me-container .icon{
+  text-align: center;
+}
+
+#about-me-container .icon i{
+  padding-right: 10px;
+}
+
+/* My Picture  */
+#about-me-container .more-info .profile-pic{
+  width: 100%;
+  opacity: 0.7;
+}
+
+#about-me-container .more-info .profile-pic:hover{
+  opacity: 1;
+}
+
+/* text to the right of picture hidden at mobile view */
+/* text to the right of picture hidden at mobile view */
+#about-me-container .more-info .more-text{
+  width: 50%;
+  border:  1px solid red;
+  max-height: 248px;
+  overflow:  hidden;
+}
+
 
 /* Conent Sections */
 .section h1{
   text-align: center;
   font-size: 2rem;
-  /* padding-bottom:5px; */
 }
 
 .section h2 {
@@ -167,7 +236,7 @@ video{
 }
 
 .section{
-  padding: 50px 80px;
+  padding: 10px 30px;
 }
 
 .section-light{
@@ -182,9 +251,7 @@ video{
 
 .section div.content{
   border: 1px solid red;
-  display: flex;
 }
-
 
 /* Footer */
 
