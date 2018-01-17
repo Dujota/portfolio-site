@@ -257,7 +257,31 @@ video{
   /* padding-left: 60px; */
 }
 
-/* Conent Sections */
+/* Skills Section */
+
+section .skill-content{
+  border: 1px solid red;
+
+  /* FlexBox */
+  display: -webkit-flex; /* Safari */
+  display: flex;
+
+  justify-content: space-between;
+}
+
+section .skill-content .skill-card{
+  border: 1px solid #000;
+  width: 22%;
+}
+
+section .skill-content ul{
+  list-style-type: none;
+
+}
+
+section .skill-content .title{
+}
+/* Content Sections */
 .section h1{
   text-align: center;
   font-size: 2rem;
@@ -281,10 +305,6 @@ video{
 .section-dark{
   background: rgba(	40, 46, 52, 1);
   color: #ddd;
-}
-
-.section div.content{
-  /* border: 1px solid red; */
 }
 
 /* Footer */
