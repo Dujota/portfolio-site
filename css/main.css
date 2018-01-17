@@ -162,7 +162,6 @@ video{
 /* About Section */
 
 #about-me-container{
-  /* border: 2px solid blue; */
   margin: 0 auto;
   width:100%;
 }
@@ -183,10 +182,11 @@ video{
 #about-me-container .more-info{
   padding-top: 10px;
   width: 100%;
+
+  /* FlexBox */
   display: flex;
-  flex-wrap: wrap;
-  flex-wrap: wrap;
   display: -webkit-flex; /* Safari */
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -256,12 +256,10 @@ video{
 /* Skills Section */
 
 section .skill-content{
-  /* border: 1px solid red; */
 
   /* FlexBox */
   display: -webkit-flex; /* Safari */
   display: flex;
-  display: -webkit-flex; /* Safari */
 
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   flex-wrap: wrap;
@@ -303,8 +301,22 @@ section .skill-content .title{
 
 
 /* My Work Section */
+.section .work-content{
+  /* FlexBox */
+  display: -webkit-flex; /* Safari */
+  display: flex;
 
-
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  flex-wrap: wrap;
+}
+.section .work-content div{
+  width: 16.66%;
+  height: 50px;
+  text-align: center;
+  color: #000;
+  background-color: lightblue;
+  border: 1px solid #fff;
+}
 
 /* Content Sections */
 .section h1{
