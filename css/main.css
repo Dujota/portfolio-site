@@ -174,7 +174,7 @@ video{
 
 /* Who am i? */
 #about-me-container .about{
-  max-width:65%;
+  max-width:72%;
   margin: 0 auto;
 }
 
@@ -204,6 +204,19 @@ video{
 
 #about-me-container .icon i{
   padding-right: 10px;
+}
+
+/* Resume link */
+#about-me-container .resume{
+  /* margin: 0 auto; */
+  text-align: center;
+  display: block;
+  /* background-color: black; */
+}
+
+#about-me-container .resume {
+  text-decoration: none;
+  color: #ddd;
 }
 
 /* My Picture  */
@@ -288,6 +301,6 @@ video{
 
 @media only screen and (max-width: 1023px){
   #about-me-container .more-info .more-text p{
-    padding: 10px;
+    padding: 20px;
   }
 }
