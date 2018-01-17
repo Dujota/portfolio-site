@@ -176,12 +176,12 @@ video{
 #about-me-container .about{
   max-width:72%;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 /* FlexBox for pic and 2nd text */
 #about-me-container .more-info{
   padding-top: 10px;
-  /* border: solid 1px white; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
