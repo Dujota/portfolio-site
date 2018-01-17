@@ -211,19 +211,22 @@ video{
   /* margin: 0 auto; */
   text-align: center;
   display: block;
+  text-decoration: none;
+  color: #ddd;
   /* background-color: black; */
 }
 
-#about-me-container .resume {
-  text-decoration: none;
-  color: #ddd;
+#about-me-container .resume i{
+  padding-right: 5px;
+  padding-top: 10px;
+  /* width: 100%; */
 }
 
 /* My Picture  */
 #about-me-container .more-info .profile-pic{
   width: 100%;
-  opacity: 0.7;
-  padding: 20px;
+  opacity: 0.6;
+  /* padding: 20px; */
 }
 
 #about-me-container .more-info .profile-pic:hover{
