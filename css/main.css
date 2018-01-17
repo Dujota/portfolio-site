@@ -199,7 +199,8 @@ video{
 
 #about-me-container .icon{
   text-align: center;
-  padding: 22px;
+  padding: 10px;
+  font-size: 20px;
 }
 
 #about-me-container .icon i{
@@ -208,12 +209,14 @@ video{
 
 /* Resume link */
 #about-me-container .resume{
-  /* margin: 0 auto; */
   text-align: center;
   display: block;
   text-decoration: none;
   color: #ddd;
-  /* background-color: black; */
+  font-size: 20px;
+  /* background-color: lime; */
+  max-width: 45%;
+  margin: 0 auto;
 }
 
 #about-me-container .resume i{
