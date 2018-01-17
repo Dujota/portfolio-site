@@ -275,9 +275,8 @@ section .skill-content{
 
   padding: 10px;
 }
-
+/* Skill Cards */
 section .skill-content .skill-card{
-  /* border: 1px solid #000; */
   width: 30%;
   padding: 15px;
   text-align: center;
@@ -302,8 +301,15 @@ section .skill-card ul li.title > i{
 section .skill-content .title{
   font-weight: bold;
   font-size: 17px;
+  color: #000;
   padding-bottom: 7px;
 }
+
+
+/* My Work Section */
+
+
+
 /* Content Sections */
 .section h1{
   text-align: center;
