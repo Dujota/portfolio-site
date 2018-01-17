@@ -260,7 +260,7 @@ video{
 /* Skills Section */
 
 section .skill-content{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   /* FlexBox */
   display: -webkit-flex; /* Safari */
@@ -270,20 +270,36 @@ section .skill-content{
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px;
 }
 
 section .skill-content .skill-card{
-  border: 1px solid #000;
-  width: 22%;
-  /* padding: 20px; */
+  /* border: 1px solid #000; */
+  width: 30%;
+  padding: 15px;
+  text-align: center;
+  -moz-box-shadow: 1px 1px 3px 2px #888888;
+  -webkit-box-shadow: 1px 1px 3px 2px #888888;
+  box-shadow: 1px 1px 3px 2px #888888;
 }
 
 section .skill-content ul{
   list-style-type: none;
-
 }
 
+section .skill-card ul li{
+  padding: 3px;
+}
+
+section .skill-card ul li.title > i{
+  padding-right: 5px;
+}
+
+/* title */
 section .skill-content .title{
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 7px;
 }
 /* Content Sections */
 .section h1{
