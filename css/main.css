@@ -460,7 +460,7 @@ background-repeat: no-repeat;
   background-attachment:scroll;
   }
 
-  /*Portfolio coontent resizing */
+  /*Portfolio content resizing */
   .section .work-content{
     display: block;
     flex-wrap: nowrap;
@@ -478,7 +478,9 @@ background-repeat: no-repeat;
     width: 100%;
   }
 
-
+  body header.v-header.container{
+    overflow: hidden;
+  }
 
 
 }
