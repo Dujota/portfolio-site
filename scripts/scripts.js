@@ -20,10 +20,10 @@ function scrollFunction() {
 
 function footerTransition() {
   var intFrameWidth = window.innerWidth;
-    if ((window.innerHeight + window.scrollY + 400) >= document.body.offsetHeight) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
       document.getElementById("footer").style.bottom = "0";
 
-  }else if (intFrameWidth < 601 && window.innerHeight + window.scrollY - 20) {
+  }else if (intFrameWidth < 601 && window.innerHeight + window.scrollY) {
     document.getElementById("footer").style.bottom = "-100px";
   } else {
     document.getElementById("footer").style.bottom = "-100px";
