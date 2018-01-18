@@ -40,6 +40,11 @@ body, html{
   background-color: #ddd;
   color: #000;
 }
+
+#navbar > a > span{
+  padding: 10px;
+  font-size: 1.2rem;
+}
 /* Video Header Styling */
 .video-wrap{
   position: relative;
@@ -203,8 +208,9 @@ video{
   font-size: 20px;
 }
 
-#about-me-container .icon i{
-  padding-right: 10px;
+#about-me-container > div.more-info.clearfix > div.card > p > span{
+  padding: 20px;
+  font-size: 1.5rem;
 }
 
 /* Resume link */
@@ -219,6 +225,10 @@ video{
   margin: auto;
   padding:5px 0px;
   border-radius: 40px;
+}
+
+#about-me-container > div.more-info.clearfix > div.card > a > span{
+  padding-left: 10px;
 }
 
 #about-me-container .resume:hover{
