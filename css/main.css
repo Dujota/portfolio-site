@@ -462,6 +462,12 @@ background-repeat: no-repeat;
   background-attachment:scroll;
   }
 
+  /* About me resizing */
+
+  #about-me-container .resume{
+    font-size: 18px;
+  }
+
   /*Portfolio content resizing */
   .section .work-content{
     display: block;
