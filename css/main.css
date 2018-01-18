@@ -338,14 +338,27 @@ section .skill-content .title span{
   flex-wrap: wrap;
 }
 .section .work-content div{
-  width: 16.66%;
-  height: 50px;
+  width: 33.33%;
+  height: 300px;
   text-align: center;
   color: #000;
   background-color: lightblue;
   border: 1px solid #fff;
 }
 
+.section .work-content .col-2.work-card{
+  width: 66.66%;
+}
+
+
+.wats-logo{
+  height: 100%;
+  width: 100%;
+}
+/* .section .work-content .work-card img{
+  height: 100%;
+  width: 100%;
+} */
 /* Content Sections */
 .section h1{
   text-align: center;
@@ -406,8 +419,23 @@ section .skill-content .title span{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 600px) {
+
+  /* stop parallax effect */
   .parallax1, .parallax2, .parallax3{
-  background-attachment:scroll
+  background-attachment:scroll;
+  }
+
+  .section .work-content{
+    display: block;
+    flex-wrap: nowrap;
+  }
+
+  .section .work-content div{
+    width: 100%;
+  }
+
+  .section .work-content .col-2.work-card{
+    width: 100%;
   }
 
 
