@@ -18,10 +18,10 @@ body, html{
 
 /* Navbar Styling */
 #navbar{
-  background: rgba(51,51,51,1);
+  background: rgba(51,51,51,.8);
   z-index: 3;
   position: fixed;
-  top:-50px;  /* Hide the navbar 50 px outside of the top view*/
+  top:-50px;  /* Hide the navbar 50 px outside of the top view */
   width: 100%;
   transition: top 1.0s;
  /*Transition effect when sliding down (and up) */
@@ -376,10 +376,7 @@ background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
-/* .section .work-content .work-card img{
-  height: 100%;
-  width: 100%;
-} */
+
 /* Content Sections */
 .section h1{
   text-align: center;
@@ -409,13 +406,18 @@ background-repeat: no-repeat;
 
 /* Footer */
 
-.footer{
-  position: sticky;
-  background-color: black;
+
+#footer {
+  background: rgba(51,51,51,.8);
+  z-index: 3;
+  position: fixed;
+  bottom:-100px;  /* Hide the navbar 50 px outside of the top view */
+  width: 100%;
   height: 100px;
-  color: #fff;
+  transition: bottom 1.0s;
   text-align: center;
 }
+
 
 .footer p{
   font-size: 1.6rem;
@@ -441,11 +443,22 @@ background-repeat: no-repeat;
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 600px) {
 
+  /* Navbar */
+  #navbar {
+    top:-150px;  /* Hide the navbar 50 px outside of the top view */
+    transition: 1.8s;
+  }
+
+  #navbar > a{
+    width: 100%;
+  }
+
   /* stop parallax effect */
   .parallax1, .parallax2, .parallax3{
   background-attachment:scroll;
   }
 
+  /*Portfolio coontent resizing */
   .section .work-content{
     display: block;
     flex-wrap: nowrap;
@@ -462,6 +475,8 @@ background-repeat: no-repeat;
   .section .work-content .col-4.work-card{
     width: 100%;
   }
+
+
 
 
 }
