@@ -463,6 +463,9 @@ background-repeat: no-repeat;
   }
 
   /* About me resizing */
+  #about-me-container .about{
+    max-width: 100%;
+  }
 
   #about-me-container .resume{
     font-size: 18px;
