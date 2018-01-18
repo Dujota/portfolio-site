@@ -348,7 +348,7 @@ section .skill-content .title span{
 
 .section .work-content .col-4.work-card{
   width: 66.66%;
-  background-image: url("/img/cfund.jpeg");
+  background-image: url("../img/cfund.jpeg");
   background-position: center;
   background-size: cover;
 
@@ -356,13 +356,13 @@ section .skill-content .title span{
 
 .section .work-content .col-2.work-card{
   width: 66.66%;
-  background-image: url("/img/img2.jpeg");
+  background-image: url("../img/img2.jpeg");
   background-position: center;
   background-size: cover;
 }
 
 .section .work-content .col-1.work-card{
-background-image: url("/img/wats-logo.svg");
+background-image: url("../img/wats-logo.svg");
 background-position: center;
 background-size: auto;
 background-repeat: no-repeat;
