@@ -45,32 +45,10 @@ body, html{
   font-size: .9rem;
 }
 
-/* Rotating Bar for Mobile view */
-.bar1, .bar2, .bar3{
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
+/* Hide the link that should open and close the topnav on small screens */
+#navbar .icon {
+    display: none;
 }
-
-/* Rotate first bar */
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-
-/* Fade out the second bar */
-.change .bar2 {
-    opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-}
-
 
 /* Video Header Styling */
 .video-wrap{
@@ -474,15 +452,25 @@ background-repeat: no-repeat;
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 600px) {
 
-  /* Navbar */
+  /* Mini-Navbar  hide away all but home button and display the bar icon to the right */
   #navbar {
-    top:-150px;  /* Hide the navbar 50 px outside of the top view */
+    top:-150px;  /* Hide the navbar 150 px outside of the top view */
     transition: 1.8s;
   }
 
-  #navbar > a{
-    width: 100%;
+  #navbar.topnav a:not(:first-child){
+    display: none;
   }
+
+  #navbar.topnav a.icon{
+    float: right;
+    display: block;
+  }
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. */
+  
+
+
 
   /* stop parallax effect */
   .parallax1, .parallax2, .parallax3{
