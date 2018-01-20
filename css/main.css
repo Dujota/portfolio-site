@@ -59,8 +59,8 @@ body > nav{
 .video-wrap{
   position: relative;
   overflow: hidden;
-  width: 100% !important;
-  height: 98vh !important;
+  width: auto !important;
+  height: 100vh !important;
 }
 
 video{
@@ -83,8 +83,8 @@ video{
   bottom: 0;
   left: 0;
   right: 0;
-  max-height: 98vh !important;
-  min-width: 98vw !important;
+  min-height: auto  !important;
+  min-width: auto !important;
 }
 
 .text{
