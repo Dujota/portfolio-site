@@ -17,21 +17,20 @@
 </head>
 
 <body>
-  <div id="navbar" onscroll="scrollFunction()">
 
-    <a href="#home"><i class="fa fa-home "></i><span>Home</span></a>
+  <nav>
+    <div id="navbar" class="topnav" onscroll="scrollFunction()">
 
-    <a href="#about"><i class="fas fa-user"></i><span>About</span></a>
+      <a href="#home"><i class="fa fa-home "></i><span>Home</span></a>
+      <a href="#about"><i class="fas fa-user"></i><span>About</span></a>
+      <a href="#skills"><i class="fas fa-code"></i><span>My Skills</span></a>
+      <a href="#work"><i class="far fa-images"></i> <span>My Work</span></a>
+      <a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><span>&#9776;</span></a>
+    </div>
+  </nav>
 
-    <a href="#skills"><i class="fas fa-code"></i><span>My Skills</span></a>
-
-    <a href="#work"><i class="far fa-images"></i> <span>My Work</span></a>
-
-    <a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a>
-
-  </div>
-
-  <header class="v-header container">
+  <header id="home" class="v-header container">
 
     <div class="video-wrap">
       <video poster"img/Aloha-Mundo.jpg" autoplay loop>
@@ -53,7 +52,7 @@
   </header>
 
 <!-- About Me -->
-  <section class="section section-dark">
+  <section id="about" class="section section-dark">
     <div class="heading"><h1>About Me</h1>
     <h2>Learning is my hobby and passion</h2>
     </div>
@@ -86,7 +85,7 @@
     </div>
   </section>
 
-  <div class="parallax2">
+  <div id="skills" class="parallax2">
     <div class="parallax-text">
       <span class="border trans">
         What Can I do?
@@ -133,13 +132,14 @@
 
   </section>
 
-  <div class="parallax1">
+  <div id="work" class="parallax1">
     <div class="parallax-text">
       <span class="border">
         What Have I Done?
       </span>
     </div>
   </div>
+
 <!-- My Work -->
   <section class="section section-dark">
     <h1>Projects</h1>
@@ -183,7 +183,7 @@
   </section>
 
 
-  <div class="parallax3">
+  <div id="contact" class="parallax3">
     <div class="parallax-text">
       <span class="border trans">
         Implementation
